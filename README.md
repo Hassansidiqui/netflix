@@ -40,7 +40,7 @@ This project is a simple clone of the Netflix homepage, built using only HTML an
 ## About Me
 I am a freelance full-stack developer and have been working as a software developer for the past two years. I specialize in HTML, CSS, JavaScript, responsive web design, and .NET technologies, including C#, VB, ASP.NET Web Forms, Windows Forms, .NET Core, SQL Server, and APIs. You can reach out to me for collaboration or freelance work opportunities.
 
-**Location:** Kurla West, Mumbai - 400070  
-**Contact:** 9623191062  
-**Email:** zamazaidi95@gmail.com  
-**LinkedIn:** [Sayyed Zama Mahdi](https://www.linkedin.com/in/sayyed-zama-mahdi-0711a2219/)
+**Location:** pakistan , karachi 
+**Contact:** +92 3142761583 
+**Email:** hassansiddiquis486@gmail.com 
+**LinkedIn:** [Sayyed Zama Mahdi](https://github.com/Hassansidiqui)
