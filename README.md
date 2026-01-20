@@ -43,4 +43,4 @@ I am a freelance full-stack developer and have been working as a software develo
 **Location:** pakistan , karachi 
 **Contact:** +92 3142761583 
 **Email:** hassansiddiquis486@gmail.com 
-**LinkedIn:** [Sayyed Zama Mahdi](https://github.com/Hassansidiqui)
+**LinkedIn:** [Muhammad Hassan Siddiqui](https://github.com/Hassansidiqui)
