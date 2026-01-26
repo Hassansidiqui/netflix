@@ -328,18 +328,22 @@ section {
 #faq .faq_area .faq {
     background-color: #2d2d2d;
     color: white;
-    padding: 2.75rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 1rem 0;
     cursor: pointer;
     transition: .2s;
+    overflow: hidden;
 }
 
 #faq .faq_area .faq:hover {
     background-color: #454545;
+}
 
+#faq .faq_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.75rem 2rem;
+    user-select: none;
 }
 
 #faq .faq_area .faq h4 {
@@ -349,6 +353,37 @@ section {
 
 #faq .faq_area .faq i {
     font-size: 2.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+#faq .faq.active i {
+    transform: rotate(45deg);
+}
+
+.faq_answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    background-color: #2d2d2d;
+    border-top: 1px solid black;
+}
+
+.faq.active .faq_answer {
+    max-height: 1200px; /* Large enough to fit content */
+}
+
+.faq_answer p {
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .faq_answer p {
+        font-size: 1.6rem;
+        padding: 1.5rem;
+    }
 }
 
 #faq h4 {
